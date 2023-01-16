@@ -51,9 +51,7 @@ let addToBasketBtns = document.querySelectorAll(".add-to-basket-btn");
 
 addToBasketBtns.forEach(btn => btn.addEventListener("click", function (e) {
     e.preventDefault();
-
     let url = btn.getAttribute("href");
-
     fetch(url).then(res => {
         if (res.status == 200) {
             Toastify({
@@ -87,10 +85,3 @@ addToBasketBtns.forEach(btn => btn.addEventListener("click", function (e) {
     )
 }))
 
-//Basket
-//let url = "book/getbasket";
-//window.onload = () => {
-//    fetch(url)
-//        .then(res => res.json())
-//        .then(data => console.log(data))
-//};

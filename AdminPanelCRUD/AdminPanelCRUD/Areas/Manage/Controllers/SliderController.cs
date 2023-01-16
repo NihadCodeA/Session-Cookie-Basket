@@ -1,11 +1,13 @@
 ﻿using AdminPanelCRUD.Helpers;
 using AdminPanelCRUD.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.IO;
 
 namespace AdminPanelCRUD.Areas.Manage.Controllers
 {
     [Area("Manage")]
+    [Authorize(Roles ="SuperAdmin")]
     public class SliderController : Controller
     {
         private readonly PustokContext _pustokContext;

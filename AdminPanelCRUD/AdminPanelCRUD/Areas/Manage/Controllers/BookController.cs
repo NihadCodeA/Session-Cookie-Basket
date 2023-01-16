@@ -34,6 +34,8 @@ namespace AdminPanelCRUD.Areas.Manage.Controllers
         [HttpPost]
         public IActionResult Create(Book book)
         {
+            ViewBag.Authors = _pustokContext.Authors.ToList();
+            ViewBag.Genres = _pustokContext.Genres.ToList();
             if (!ModelState.IsValid) return View(book);
             if (book.PosterImgFile != null)
             {

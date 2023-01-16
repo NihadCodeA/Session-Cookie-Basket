@@ -3,8 +3,8 @@
 {
     foreach (var item in Model)
     {
-        <div class="cart-product">
-            <a href="product-details.html" class="image">
+        <div class="cart-product basketItem">
+           <a href="product-details.html" class="image">
                 <img src="~/uploads/books/@item.Book.BookImages.FirstOrDefault(x=>x.IsPoster==true)?.Image" alt="">
             </a>
             <div class="content">

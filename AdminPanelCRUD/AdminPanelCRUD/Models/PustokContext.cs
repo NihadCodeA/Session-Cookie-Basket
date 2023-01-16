@@ -1,8 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 
 namespace AdminPanelCRUD.Models
 {
-    public class PustokContext : DbContext
+    public class PustokContext : IdentityDbContext
     {
         public PustokContext(DbContextOptions<PustokContext> options) : base(options){}
 
@@ -13,6 +14,6 @@ namespace AdminPanelCRUD.Models
         public DbSet<BookImages> BookImages { get; set; }
         public DbSet<Author> Authors { get; set; }
         public DbSet<Genre> Genres { get; set; }
-
+        DbSet<AppUser> Users { get; set; }
     }
 }

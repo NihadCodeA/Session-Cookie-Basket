@@ -1,5 +1,8 @@
+using AdminPanelCRUD.Areas.Manage.Services;
 using AdminPanelCRUD.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +16,20 @@ builder.Services.AddSession(opt =>
 builder.Services.AddDbContext<PustokContext>(
     opt=>opt.UseSqlServer(builder.Configuration.GetConnectionString("Default"))
 );
+
+builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
+{
+    opt.Password.RequiredUniqueChars = 0;
+    opt.Password.RequireNonAlphanumeric = false;
+    opt.Password.RequireDigit = true;
+    opt.Password.RequireLowercase = true;
+    opt.Password.RequireUppercase = true;
+    opt.Password.RequiredLength = 8;
+    opt.User.RequireUniqueEmail = false ;
+}).AddEntityFrameworkStores<PustokContext>().AddDefaultTokenProviders();
+
+builder.Services.AddScoped<LayoutService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -28,6 +45,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.UseSession();

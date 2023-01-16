@@ -7841,12 +7841,52 @@
       "PackagePath": "staticwebassets\\manage\\vendor\\jquery\\jquery.slim.min.map"
     },
     {
+      "Id": "C:\\Users\\Nihad\\Desktop\\Session, Cookie , Basket\\AdminPanelCRUD\\AdminPanelCRUD\\wwwroot\\uploads\\books\\0a7694a0-f5f5-4f8d-8bd2-772eb27e5d18apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\uploads\\books\\0a7694a0-f5f5-4f8d-8bd2-772eb27e5d18apple-touch-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Nihad\\Desktop\\Session, Cookie , Basket\\AdminPanelCRUD\\AdminPanelCRUD\\wwwroot\\uploads\\books\\15cab586-c30d-4ee4-8773-37c31f0af4c3menu-item-1.png",
+      "PackagePath": "staticwebassets\\uploads\\books\\15cab586-c30d-4ee4-8773-37c31f0af4c3menu-item-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Nihad\\Desktop\\Session, Cookie , Basket\\AdminPanelCRUD\\AdminPanelCRUD\\wwwroot\\uploads\\books\\286397ca-0a4c-4019-af59-e5e67bfb6c36menu-item-1.png",
+      "PackagePath": "staticwebassets\\uploads\\books\\286397ca-0a4c-4019-af59-e5e67bfb6c36menu-item-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Nihad\\Desktop\\Session, Cookie , Basket\\AdminPanelCRUD\\AdminPanelCRUD\\wwwroot\\uploads\\books\\30b44b10-c807-46f2-9ed9-e585df8e834dmenu-item-4.png",
+      "PackagePath": "staticwebassets\\uploads\\books\\30b44b10-c807-46f2-9ed9-e585df8e834dmenu-item-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Nihad\\Desktop\\Session, Cookie , Basket\\AdminPanelCRUD\\AdminPanelCRUD\\wwwroot\\uploads\\books\\417d2c65-6b2b-4dc6-83ef-695a9d662b18menu-item-1.png",
+      "PackagePath": "staticwebassets\\uploads\\books\\417d2c65-6b2b-4dc6-83ef-695a9d662b18menu-item-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Nihad\\Desktop\\Session, Cookie , Basket\\AdminPanelCRUD\\AdminPanelCRUD\\wwwroot\\uploads\\books\\57cbe541-55c8-4f53-8740-1922a59bcbbcmenu-item-2.png",
+      "PackagePath": "staticwebassets\\uploads\\books\\57cbe541-55c8-4f53-8740-1922a59bcbbcmenu-item-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Nihad\\Desktop\\Session, Cookie , Basket\\AdminPanelCRUD\\AdminPanelCRUD\\wwwroot\\uploads\\books\\6fda0045-520a-4d8e-8ca3-df0109786bd2menu-item-5.png",
+      "PackagePath": "staticwebassets\\uploads\\books\\6fda0045-520a-4d8e-8ca3-df0109786bd2menu-item-5.png"
+    },
+    {
+      "Id": "C:\\Users\\Nihad\\Desktop\\Session, Cookie , Basket\\AdminPanelCRUD\\AdminPanelCRUD\\wwwroot\\uploads\\books\\c406546e-e8fc-4706-9f01-d942ceb80befmenu-item-1.png",
+      "PackagePath": "staticwebassets\\uploads\\books\\c406546e-e8fc-4706-9f01-d942ceb80befmenu-item-1.png"
+    },
+    {
       "Id": "C:\\Users\\Nihad\\Desktop\\Session, Cookie , Basket\\AdminPanelCRUD\\AdminPanelCRUD\\wwwroot\\uploads\\books\\e21ad6e6-1518-41f8-a382-c201fabb127fcat-gal-mid-2.png",
       "PackagePath": "staticwebassets\\uploads\\books\\e21ad6e6-1518-41f8-a382-c201fabb127fcat-gal-mid-2.png"
     },
     {
+      "Id": "C:\\Users\\Nihad\\Desktop\\Session, Cookie , Basket\\AdminPanelCRUD\\AdminPanelCRUD\\wwwroot\\uploads\\books\\e3044635-d49a-42f9-b587-d2fa802be54emenu-item-2.png",
+      "PackagePath": "staticwebassets\\uploads\\books\\e3044635-d49a-42f9-b587-d2fa802be54emenu-item-2.png"
+    },
+    {
       "Id": "C:\\Users\\Nihad\\Desktop\\Session, Cookie , Basket\\AdminPanelCRUD\\AdminPanelCRUD\\wwwroot\\uploads\\books\\e65fbfa0-8ce4-4d59-8bec-3b79b3e2d90freservation.jpg",
       "PackagePath": "staticwebassets\\uploads\\books\\e65fbfa0-8ce4-4d59-8bec-3b79b3e2d90freservation.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nihad\\Desktop\\Session, Cookie , Basket\\AdminPanelCRUD\\AdminPanelCRUD\\wwwroot\\uploads\\books\\e7cda5f0-166f-4d69-b44a-fcbab34a1310menu-item-3.png",
+      "PackagePath": "staticwebassets\\uploads\\books\\e7cda5f0-166f-4d69-b44a-fcbab34a1310menu-item-3.png"
     },
     {
       "Id": "C:\\Users\\Nihad\\Desktop\\Session, Cookie , Basket\\AdminPanelCRUD\\AdminPanelCRUD\\wwwroot\\uploads\\books\\ea18f19c-038d-4056-a376-436a3c2cb4c1menu-item-4.png",
@@ -7871,6 +7911,10 @@
     {
       "Id": "C:\\Users\\Nihad\\Desktop\\Session, Cookie , Basket\\AdminPanelCRUD\\AdminPanelCRUD\\wwwroot\\uploads\\books\\ef21a5eb-0671-4d38-9181-699d67c9b344menu-item-4.png",
       "PackagePath": "staticwebassets\\uploads\\books\\ef21a5eb-0671-4d38-9181-699d67c9b344menu-item-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Nihad\\Desktop\\Session, Cookie , Basket\\AdminPanelCRUD\\AdminPanelCRUD\\wwwroot\\uploads\\books\\f3f3cdfd-8cd0-4f08-93f4-462acf287594menu-item-3.png",
+      "PackagePath": "staticwebassets\\uploads\\books\\f3f3cdfd-8cd0-4f08-93f4-462acf287594menu-item-3.png"
     },
     {
       "Id": "C:\\Users\\Nihad\\Desktop\\Session, Cookie , Basket\\AdminPanelCRUD\\AdminPanelCRUD\\wwwroot\\uploads\\books\\f76143c1-3a68-4ec3-95a9-493cee986211menu-item-1.png",
@@ -7913,12 +7957,24 @@
       "PackagePath": "staticwebassets\\uploads\\brandsliders\\f7226fc8-833e-4aa3-825b-c7523a1ae660client-5.png"
     },
     {
+      "Id": "C:\\Users\\Nihad\\Desktop\\Session, Cookie , Basket\\AdminPanelCRUD\\AdminPanelCRUD\\wwwroot\\uploads\\sliders\\20f390e3-f959-4aa2-b846-60a0acdba98bmenu-item-6.png",
+      "PackagePath": "staticwebassets\\uploads\\sliders\\20f390e3-f959-4aa2-b846-60a0acdba98bmenu-item-6.png"
+    },
+    {
+      "Id": "C:\\Users\\Nihad\\Desktop\\Session, Cookie , Basket\\AdminPanelCRUD\\AdminPanelCRUD\\wwwroot\\uploads\\sliders\\3b903be7-5923-4e64-b0a6-4f073f846ad5menu-item-6.png",
+      "PackagePath": "staticwebassets\\uploads\\sliders\\3b903be7-5923-4e64-b0a6-4f073f846ad5menu-item-6.png"
+    },
+    {
       "Id": "C:\\Users\\Nihad\\Desktop\\Session, Cookie , Basket\\AdminPanelCRUD\\AdminPanelCRUD\\wwwroot\\uploads\\sliders\\480cc9ae-c726-4919-b6f8-18a974850777client-5.png",
       "PackagePath": "staticwebassets\\uploads\\sliders\\480cc9ae-c726-4919-b6f8-18a974850777client-5.png"
     },
     {
       "Id": "C:\\Users\\Nihad\\Desktop\\Session, Cookie , Basket\\AdminPanelCRUD\\AdminPanelCRUD\\wwwroot\\uploads\\sliders\\8a12f65a-8631-46c9-bae6-5c48d1ebe2b8menu-item-4.png",
       "PackagePath": "staticwebassets\\uploads\\sliders\\8a12f65a-8631-46c9-bae6-5c48d1ebe2b8menu-item-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Nihad\\Desktop\\Session, Cookie , Basket\\AdminPanelCRUD\\AdminPanelCRUD\\wwwroot\\uploads\\sliders\\b69389af-2b7f-4223-886e-ecf45360ec48menu-item-2.png",
+      "PackagePath": "staticwebassets\\uploads\\sliders\\b69389af-2b7f-4223-886e-ecf45360ec48menu-item-2.png"
     },
     {
       "Id": "C:\\Users\\Nihad\\Desktop\\Session, Cookie , Basket\\AdminPanelCRUD\\AdminPanelCRUD\\wwwroot\\uploads\\sliders\\f1597625-6bec-4c2e-86df-21605e2ca7edcat-gal-large.png",
