@@ -1,9 +1,9 @@
-﻿@inject AdminPanelCRUD.Areas.Manage.Services.LayoutService service
+﻿@*@inject AdminPanelCRUD.Areas.Manage.Services.LayoutService service
 
 @{
 	AppUser user = await service.GetUser();
 }
-
+*@
 <!DOCTYPE html>
 <html lang="en">
 
@@ -119,12 +119,12 @@
                            data-toggle="dropdown"
                            aria-haspopup="true"
                            aria-expanded="false">
-							@if (User.Identity.IsAuthenticated)
+						@*	@if (User.Identity.IsAuthenticated)
 							{
 								<span class="mr-2 d-none d-lg-inline text-gray-600 small">
 								@user.FullName;						
 								</span>
-							} 
+							} *@
 							<img class="img-profile rounded-circle"
                                  src="img/undraw_profile.svg" />
                         </a>

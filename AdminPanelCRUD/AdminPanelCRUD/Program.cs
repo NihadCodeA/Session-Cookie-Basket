@@ -28,7 +28,7 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
     opt.User.RequireUniqueEmail = false ;
 }).AddEntityFrameworkStores<PustokContext>().AddDefaultTokenProviders();
 
-builder.Services.AddScoped<LayoutService>();
+//builder.Services.AddScoped<LayoutService>();
 
 var app = builder.Build();
 
