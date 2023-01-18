@@ -234,20 +234,15 @@ namespace AdminPanelCRUD.Areas.Manage.Controllers
 
         public IActionResult Delete(int id)
         {
-            Book book = _pustokContext.Books.Find(id);
+            Book book = _pustokContext.Books.Include(x=>x.BookImages).FirstOrDefault(x=>x.Id==id);
             if (book == null) NotFound(); //404
 
-            if (book.PosterImgFile != null)
-            {
-                FileManager.DeleteFile(_env.WebRootPath, "uploads/books", book.BookImages.FirstOrDefault(x => x.IsPoster == true).Image);
-            }
-            if (book.PosterImgFile != null)
-            {
-                FileManager.DeleteFile(_env.WebRootPath, "uploads/books", book.BookImages.FirstOrDefault(x => x.IsPoster == false).Image);
-            }
             if (book.BookImages != null)
             {
-                FileManager.DeleteFile(_env.WebRootPath, "uploads/books", book.BookImages.FirstOrDefault(x => x.IsPoster == null).Image);
+               foreach(var bookImage in book.BookImages)
+                {
+					FileManager.DeleteFile(_env.WebRootPath, "uploads/books", bookImage.Image);
+				}
             }
 
             _pustokContext.Books.Remove(book);

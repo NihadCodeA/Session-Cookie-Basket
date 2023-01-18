@@ -122,7 +122,7 @@
                                         <li><a href="compare.html">Compare</a></li>
                                         <li><a href="wishlist.html">Wishlist</a></li>
                                         <li><a asp-controller="account" asp-action="login">Login</a></li>
-                                        <li><a asp-controller="account" asp-action="register">Login Register</a></li>
+                                        <li><a asp-controller="account" asp-action="register">Register</a></li>
                                         <li><a href="my-account.html">My Account</a></li>
                                         <li><a href="order-complete.html">Order Complete</a></li>
                                         <li><a href="faq.html">Faq</a></li>
@@ -309,8 +309,9 @@
                         <div class="main-navigation flex-lg-right">
                             <div class="cart-widget">
                                 <div class="login-block">
-                                    <a href="login-register.html" class="font-weight-bold">Login</a> <br>
-                                    <span>or</span><a href="login-register.html">Register</a>
+                                     <a asp-controller="account" asp-action="login">Login</a>
+                                     <span>or</span>
+                                     <a asp-controller="account" asp-action="register">Register</a>
                                 </div>
                                 <div class="cart-block">
                                     <div class="cart-total">

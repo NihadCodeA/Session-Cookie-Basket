@@ -54,6 +54,12 @@ addToBasketBtns.forEach(btn => btn.addEventListener("click", function (e) {
     let url = btn.getAttribute("href");
     fetch(url).then(res => {
         if (res.status == 200) {
+            //fetch('book/getbasket')
+            //    .then(function (response) { return response.json(); })
+            //    .then(function (data) {
+            //        console.log(data);
+            //    });
+            
             Toastify({
                 text: "Kitab sebete elave olundu!",
                 duration: 3000,

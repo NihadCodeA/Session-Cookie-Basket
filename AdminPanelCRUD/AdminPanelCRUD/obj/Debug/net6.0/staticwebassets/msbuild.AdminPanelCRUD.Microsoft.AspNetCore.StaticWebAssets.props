@@ -31360,12 +31360,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\manage\vendor\jquery\jquery.slim.min.map))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\0a7694a0-f5f5-4f8d-8bd2-772eb27e5d18apple-touch-icon.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\071330b0-f8b2-4830-aaea-cb69a32e8697menu-item-4.png))">
       <SourceType>Package</SourceType>
       <SourceId>AdminPanelCRUD</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/AdminPanelCRUD</BasePath>
-      <RelativePath>uploads/books/0a7694a0-f5f5-4f8d-8bd2-772eb27e5d18apple-touch-icon.png</RelativePath>
+      <RelativePath>uploads/books/071330b0-f8b2-4830-aaea-cb69a32e8697menu-item-4.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -31374,14 +31374,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\0a7694a0-f5f5-4f8d-8bd2-772eb27e5d18apple-touch-icon.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\071330b0-f8b2-4830-aaea-cb69a32e8697menu-item-4.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\15cab586-c30d-4ee4-8773-37c31f0af4c3menu-item-1.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\12709b86-6dc4-4196-9a28-101ee6520c5cmenu-item-1.png))">
       <SourceType>Package</SourceType>
       <SourceId>AdminPanelCRUD</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/AdminPanelCRUD</BasePath>
-      <RelativePath>uploads/books/15cab586-c30d-4ee4-8773-37c31f0af4c3menu-item-1.png</RelativePath>
+      <RelativePath>uploads/books/12709b86-6dc4-4196-9a28-101ee6520c5cmenu-item-1.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -31390,14 +31390,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\15cab586-c30d-4ee4-8773-37c31f0af4c3menu-item-1.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\12709b86-6dc4-4196-9a28-101ee6520c5cmenu-item-1.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\286397ca-0a4c-4019-af59-e5e67bfb6c36menu-item-1.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\180e3664-962f-4374-b4ca-51bd1e81908emenu-item-3.png))">
       <SourceType>Package</SourceType>
       <SourceId>AdminPanelCRUD</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/AdminPanelCRUD</BasePath>
-      <RelativePath>uploads/books/286397ca-0a4c-4019-af59-e5e67bfb6c36menu-item-1.png</RelativePath>
+      <RelativePath>uploads/books/180e3664-962f-4374-b4ca-51bd1e81908emenu-item-3.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -31406,14 +31406,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\286397ca-0a4c-4019-af59-e5e67bfb6c36menu-item-1.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\180e3664-962f-4374-b4ca-51bd1e81908emenu-item-3.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\30b44b10-c807-46f2-9ed9-e585df8e834dmenu-item-4.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\2a0a1edb-252c-4dcd-9cc5-b259c3b4ebbbgallery-8.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>AdminPanelCRUD</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/AdminPanelCRUD</BasePath>
-      <RelativePath>uploads/books/30b44b10-c807-46f2-9ed9-e585df8e834dmenu-item-4.png</RelativePath>
+      <RelativePath>uploads/books/2a0a1edb-252c-4dcd-9cc5-b259c3b4ebbbgallery-8.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -31422,14 +31422,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\30b44b10-c807-46f2-9ed9-e585df8e834dmenu-item-4.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\2a0a1edb-252c-4dcd-9cc5-b259c3b4ebbbgallery-8.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\417d2c65-6b2b-4dc6-83ef-695a9d662b18menu-item-1.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\3b3e0d4c-3bfc-4ff6-97a2-8c6dde53b2a6testimonials-1.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>AdminPanelCRUD</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/AdminPanelCRUD</BasePath>
-      <RelativePath>uploads/books/417d2c65-6b2b-4dc6-83ef-695a9d662b18menu-item-1.png</RelativePath>
+      <RelativePath>uploads/books/3b3e0d4c-3bfc-4ff6-97a2-8c6dde53b2a6testimonials-1.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -31438,14 +31438,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\417d2c65-6b2b-4dc6-83ef-695a9d662b18menu-item-1.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\3b3e0d4c-3bfc-4ff6-97a2-8c6dde53b2a6testimonials-1.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\57cbe541-55c8-4f53-8740-1922a59bcbbcmenu-item-2.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\443bdf4f-9139-486b-b9bb-538f97963f16gallery-1.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>AdminPanelCRUD</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/AdminPanelCRUD</BasePath>
-      <RelativePath>uploads/books/57cbe541-55c8-4f53-8740-1922a59bcbbcmenu-item-2.png</RelativePath>
+      <RelativePath>uploads/books/443bdf4f-9139-486b-b9bb-538f97963f16gallery-1.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -31454,14 +31454,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\57cbe541-55c8-4f53-8740-1922a59bcbbcmenu-item-2.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\443bdf4f-9139-486b-b9bb-538f97963f16gallery-1.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\6fda0045-520a-4d8e-8ca3-df0109786bd2menu-item-5.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\4aca6ae1-4ca6-40a1-8a62-ce0495cea82cgallery-5.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>AdminPanelCRUD</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/AdminPanelCRUD</BasePath>
-      <RelativePath>uploads/books/6fda0045-520a-4d8e-8ca3-df0109786bd2menu-item-5.png</RelativePath>
+      <RelativePath>uploads/books/4aca6ae1-4ca6-40a1-8a62-ce0495cea82cgallery-5.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -31470,14 +31470,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\6fda0045-520a-4d8e-8ca3-df0109786bd2menu-item-5.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\4aca6ae1-4ca6-40a1-8a62-ce0495cea82cgallery-5.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\c406546e-e8fc-4706-9f01-d942ceb80befmenu-item-1.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\4e22fc47-fabd-4055-ac54-c9b33c1f1e16gallery-6.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>AdminPanelCRUD</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/AdminPanelCRUD</BasePath>
-      <RelativePath>uploads/books/c406546e-e8fc-4706-9f01-d942ceb80befmenu-item-1.png</RelativePath>
+      <RelativePath>uploads/books/4e22fc47-fabd-4055-ac54-c9b33c1f1e16gallery-6.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -31486,14 +31486,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\c406546e-e8fc-4706-9f01-d942ceb80befmenu-item-1.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\4e22fc47-fabd-4055-ac54-c9b33c1f1e16gallery-6.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\e21ad6e6-1518-41f8-a382-c201fabb127fcat-gal-mid-2.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\4e91b8d4-78f4-4e01-9901-461188cd5e08menu-item-2.png))">
       <SourceType>Package</SourceType>
       <SourceId>AdminPanelCRUD</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/AdminPanelCRUD</BasePath>
-      <RelativePath>uploads/books/e21ad6e6-1518-41f8-a382-c201fabb127fcat-gal-mid-2.png</RelativePath>
+      <RelativePath>uploads/books/4e91b8d4-78f4-4e01-9901-461188cd5e08menu-item-2.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -31502,14 +31502,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\e21ad6e6-1518-41f8-a382-c201fabb127fcat-gal-mid-2.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\4e91b8d4-78f4-4e01-9901-461188cd5e08menu-item-2.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\e3044635-d49a-42f9-b587-d2fa802be54emenu-item-2.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\84791850-dcc7-4773-8b25-a691ec9680b5gallery-4.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>AdminPanelCRUD</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/AdminPanelCRUD</BasePath>
-      <RelativePath>uploads/books/e3044635-d49a-42f9-b587-d2fa802be54emenu-item-2.png</RelativePath>
+      <RelativePath>uploads/books/84791850-dcc7-4773-8b25-a691ec9680b5gallery-4.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -31518,14 +31518,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\e3044635-d49a-42f9-b587-d2fa802be54emenu-item-2.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\84791850-dcc7-4773-8b25-a691ec9680b5gallery-4.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\e65fbfa0-8ce4-4d59-8bec-3b79b3e2d90freservation.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\85e3bde5-ea7d-421a-97b3-10c371bf6d1bgallery-7.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>AdminPanelCRUD</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/AdminPanelCRUD</BasePath>
-      <RelativePath>uploads/books/e65fbfa0-8ce4-4d59-8bec-3b79b3e2d90freservation.jpg</RelativePath>
+      <RelativePath>uploads/books/85e3bde5-ea7d-421a-97b3-10c371bf6d1bgallery-7.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -31534,14 +31534,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\e65fbfa0-8ce4-4d59-8bec-3b79b3e2d90freservation.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\85e3bde5-ea7d-421a-97b3-10c371bf6d1bgallery-7.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\e7cda5f0-166f-4d69-b44a-fcbab34a1310menu-item-3.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\8dcff596-fdf7-4cea-be8b-fdeaac30752bmenu-item-5.png))">
       <SourceType>Package</SourceType>
       <SourceId>AdminPanelCRUD</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/AdminPanelCRUD</BasePath>
-      <RelativePath>uploads/books/e7cda5f0-166f-4d69-b44a-fcbab34a1310menu-item-3.png</RelativePath>
+      <RelativePath>uploads/books/8dcff596-fdf7-4cea-be8b-fdeaac30752bmenu-item-5.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -31550,14 +31550,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\e7cda5f0-166f-4d69-b44a-fcbab34a1310menu-item-3.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\8dcff596-fdf7-4cea-be8b-fdeaac30752bmenu-item-5.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\ea18f19c-038d-4056-a376-436a3c2cb4c1menu-item-4.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\96a892ba-d3d2-4983-b51a-e399e6a59949menu-item-6.png))">
       <SourceType>Package</SourceType>
       <SourceId>AdminPanelCRUD</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/AdminPanelCRUD</BasePath>
-      <RelativePath>uploads/books/ea18f19c-038d-4056-a376-436a3c2cb4c1menu-item-4.png</RelativePath>
+      <RelativePath>uploads/books/96a892ba-d3d2-4983-b51a-e399e6a59949menu-item-6.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -31566,14 +31566,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\ea18f19c-038d-4056-a376-436a3c2cb4c1menu-item-4.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\96a892ba-d3d2-4983-b51a-e399e6a59949menu-item-6.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\eb5ef9e9-2c72-4efe-985c-a58e3f537bafmenu-item-5.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\ab9fb8c3-88bd-4d3b-8603-a7b6a7efdb4fgallery-1.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>AdminPanelCRUD</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/AdminPanelCRUD</BasePath>
-      <RelativePath>uploads/books/eb5ef9e9-2c72-4efe-985c-a58e3f537bafmenu-item-5.png</RelativePath>
+      <RelativePath>uploads/books/ab9fb8c3-88bd-4d3b-8603-a7b6a7efdb4fgallery-1.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -31582,14 +31582,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\eb5ef9e9-2c72-4efe-985c-a58e3f537bafmenu-item-5.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\ab9fb8c3-88bd-4d3b-8603-a7b6a7efdb4fgallery-1.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\ecb1ca55-a440-43bc-bcab-53ce3456e8c2testimonials-3.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\c12f3430-725a-4e8f-898f-f459f9628bfctestimonials-4.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>AdminPanelCRUD</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/AdminPanelCRUD</BasePath>
-      <RelativePath>uploads/books/ecb1ca55-a440-43bc-bcab-53ce3456e8c2testimonials-3.jpg</RelativePath>
+      <RelativePath>uploads/books/c12f3430-725a-4e8f-898f-f459f9628bfctestimonials-4.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -31598,14 +31598,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\ecb1ca55-a440-43bc-bcab-53ce3456e8c2testimonials-3.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\c12f3430-725a-4e8f-898f-f459f9628bfctestimonials-4.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\eeb3f4dc-47df-4401-b437-a3442ac7744bmenu-item-3.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\d5371258-9608-4280-86af-fca4ef9765ebtestimonials-2.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>AdminPanelCRUD</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/AdminPanelCRUD</BasePath>
-      <RelativePath>uploads/books/eeb3f4dc-47df-4401-b437-a3442ac7744bmenu-item-3.png</RelativePath>
+      <RelativePath>uploads/books/d5371258-9608-4280-86af-fca4ef9765ebtestimonials-2.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -31614,14 +31614,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\eeb3f4dc-47df-4401-b437-a3442ac7744bmenu-item-3.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\d5371258-9608-4280-86af-fca4ef9765ebtestimonials-2.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\eedc1adb-d009-4fa3-be26-9282470290e6testimonials-1.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\d5face9a-d0ec-4afc-9159-f48d7ccd5996gallery-6.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>AdminPanelCRUD</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/AdminPanelCRUD</BasePath>
-      <RelativePath>uploads/books/eedc1adb-d009-4fa3-be26-9282470290e6testimonials-1.jpg</RelativePath>
+      <RelativePath>uploads/books/d5face9a-d0ec-4afc-9159-f48d7ccd5996gallery-6.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -31630,14 +31630,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\eedc1adb-d009-4fa3-be26-9282470290e6testimonials-1.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\d5face9a-d0ec-4afc-9159-f48d7ccd5996gallery-6.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\ef21a5eb-0671-4d38-9181-699d67c9b344menu-item-4.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\dd035c30-6fad-4335-a661-2ee20800f981gallery-2.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>AdminPanelCRUD</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/AdminPanelCRUD</BasePath>
-      <RelativePath>uploads/books/ef21a5eb-0671-4d38-9181-699d67c9b344menu-item-4.png</RelativePath>
+      <RelativePath>uploads/books/dd035c30-6fad-4335-a661-2ee20800f981gallery-2.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -31646,14 +31646,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\ef21a5eb-0671-4d38-9181-699d67c9b344menu-item-4.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\dd035c30-6fad-4335-a661-2ee20800f981gallery-2.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\f3f3cdfd-8cd0-4f08-93f4-462acf287594menu-item-3.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\e94a7706-f3eb-48fb-b289-aaa39d1f75c9gallery-3.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>AdminPanelCRUD</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/AdminPanelCRUD</BasePath>
-      <RelativePath>uploads/books/f3f3cdfd-8cd0-4f08-93f4-462acf287594menu-item-3.png</RelativePath>
+      <RelativePath>uploads/books/e94a7706-f3eb-48fb-b289-aaa39d1f75c9gallery-3.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -31662,14 +31662,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\f3f3cdfd-8cd0-4f08-93f4-462acf287594menu-item-3.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\e94a7706-f3eb-48fb-b289-aaa39d1f75c9gallery-3.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\f76143c1-3a68-4ec3-95a9-493cee986211menu-item-1.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\fd8a191f-1115-4896-a159-4f0f2bd94d62testimonials-3.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>AdminPanelCRUD</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/AdminPanelCRUD</BasePath>
-      <RelativePath>uploads/books/f76143c1-3a68-4ec3-95a9-493cee986211menu-item-1.png</RelativePath>
+      <RelativePath>uploads/books/fd8a191f-1115-4896-a159-4f0f2bd94d62testimonials-3.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -31678,55 +31678,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\f76143c1-3a68-4ec3-95a9-493cee986211menu-item-1.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\f80194b1-e125-41f2-ab4a-9ce5c80445ddclient-1.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>AdminPanelCRUD</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/AdminPanelCRUD</BasePath>
-      <RelativePath>uploads/books/f80194b1-e125-41f2-ab4a-9ce5c80445ddclient-1.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\f80194b1-e125-41f2-ab4a-9ce5c80445ddclient-1.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\fcd99474-fd02-4456-bfb4-66d9caeafbc8menu-item-2.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>AdminPanelCRUD</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/AdminPanelCRUD</BasePath>
-      <RelativePath>uploads/books/fcd99474-fd02-4456-bfb4-66d9caeafbc8menu-item-2.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\fcd99474-fd02-4456-bfb4-66d9caeafbc8menu-item-2.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\fdb0e23b-beab-4b0c-877b-4ccf93263f04hero-img.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>AdminPanelCRUD</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/AdminPanelCRUD</BasePath>
-      <RelativePath>uploads/books/fdb0e23b-beab-4b0c-877b-4ccf93263f04hero-img.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\fdb0e23b-beab-4b0c-877b-4ccf93263f04hero-img.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\books\fd8a191f-1115-4896-a159-4f0f2bd94d62testimonials-3.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\brandsliders\2618b925-96dd-4224-bd65-766e2dbce54ecat-gal-large.png))">
       <SourceType>Package</SourceType>

@@ -39,6 +39,33 @@ namespace AdminPanelCRUD.Migrations
                     b.ToTable("Authors");
                 });
 
+            modelBuilder.Entity("AdminPanelCRUD.Models.BasketItem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("AppUserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("BookId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Count")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
+
+                    b.HasIndex("BookId");
+
+                    b.ToTable("BasketItems");
+                });
+
             modelBuilder.Entity("AdminPanelCRUD.Models.Book", b =>
                 {
                     b.Property<int>("Id")
@@ -442,6 +469,25 @@ namespace AdminPanelCRUD.Migrations
                     b.HasDiscriminator().HasValue("AppUser");
                 });
 
+            modelBuilder.Entity("AdminPanelCRUD.Models.BasketItem", b =>
+                {
+                    b.HasOne("AdminPanelCRUD.Models.AppUser", "AppUser")
+                        .WithMany()
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("AdminPanelCRUD.Models.Book", "Book")
+                        .WithMany("BasketItems")
+                        .HasForeignKey("BookId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
+
+                    b.Navigation("Book");
+                });
+
             modelBuilder.Entity("AdminPanelCRUD.Models.Book", b =>
                 {
                     b.HasOne("AdminPanelCRUD.Models.Author", "Author")
@@ -530,6 +576,8 @@ namespace AdminPanelCRUD.Migrations
 
             modelBuilder.Entity("AdminPanelCRUD.Models.Book", b =>
                 {
+                    b.Navigation("BasketItems");
+
                     b.Navigation("BookImages");
                 });
 

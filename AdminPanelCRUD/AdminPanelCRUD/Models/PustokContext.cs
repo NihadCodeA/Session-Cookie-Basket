@@ -14,6 +14,7 @@ namespace AdminPanelCRUD.Models
         public DbSet<BookImages> BookImages { get; set; }
         public DbSet<Author> Authors { get; set; }
         public DbSet<Genre> Genres { get; set; }
-        DbSet<AppUser> Users { get; set; }
+        public DbSet<BasketItem> BasketItems { get; set; }
+        public DbSet<AppUser> Users { get; set; }
     }
 }

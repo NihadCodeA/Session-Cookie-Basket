@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <Folder Include="Views\Home\" />
+    <Folder Include="wwwroot\uploads\books\" />
     <Folder Include="wwwroot\uploads\brandsliders\" />
     <Folder Include="wwwroot\uploads\sliders\" />
   </ItemGroup>

@@ -36,5 +36,7 @@ namespace AdminPanelCRUD.Models
         public List<int>? BookImageIds { get; set; }
         [NotMapped]
         public List<IFormFile>? ImageFiles { get; set; }
+
+        public List<BasketItem> BasketItems { get; set; }
     }
 }
