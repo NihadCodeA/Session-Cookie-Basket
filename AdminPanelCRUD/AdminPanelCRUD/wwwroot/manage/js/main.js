@@ -7,7 +7,7 @@ deleteBtns.forEach(btn => btn.addEventListener("click", function () {
 let sliderDeleteBtns = document.querySelectorAll(".sliderDeleteBtn");
 let bookDeleteBtns = document.querySelectorAll(".bookDeleteBtn");
 
-function deleteFunc(e,btn) {
+function deleteFunc(e, btn) {
     e.preventDefault();
     Swal.fire({
         title: 'Əminsiz?',
@@ -33,13 +33,13 @@ function deleteFunc(e,btn) {
                             'warning'
                         )
                     }
-            }   )
+                })
         }
     })
 }
 
 sliderDeleteBtns.forEach(btn => btn.addEventListener("click", function (e) {
-    deleteFunc(e,btn)
+    deleteFunc(e, btn)
 }))
 bookDeleteBtns.forEach(btn => btn.addEventListener("click", function (e) {
     deleteFunc(e, btn)
@@ -54,12 +54,6 @@ addToBasketBtns.forEach(btn => btn.addEventListener("click", function (e) {
     let url = btn.getAttribute("href");
     fetch(url).then(res => {
         if (res.status == 200) {
-            //fetch('book/getbasket')
-            //    .then(function (response) { return response.json(); })
-            //    .then(function (data) {
-            //        console.log(data);
-            //    });
-            
             Toastify({
                 text: "Kitab sebete elave olundu!",
                 duration: 3000,
@@ -85,9 +79,9 @@ addToBasketBtns.forEach(btn => btn.addEventListener("click", function (e) {
                 style: {
                     background: "linear-gradient(to right, #ffafcc, #e76f51)",
                 },
-            }).showToast();          
+            }).showToast();
         }
-     }
+    }
     )
 }))
 

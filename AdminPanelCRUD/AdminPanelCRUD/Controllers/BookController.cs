@@ -1,8 +1,5 @@
-﻿
-using AdminPanelCRUD.Models;
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Newtonsoft.Json;
-using System.Diagnostics.Metrics;
 
 namespace AdminPanelCRUD.Controllers
 {
@@ -44,13 +41,13 @@ namespace AdminPanelCRUD.Controllers
             List<BasketItemViewModel> basketItems = new List<BasketItemViewModel>();
             BasketItemViewModel basketItem = null;
             string basketItemsStr = HttpContext.Request.Cookies["BasketItems"];
-            AppUser member = null;
-            if (User.Identity.IsAuthenticated)
-            {
-                member = await _userManager.FindByNameAsync(User.Identity.Name);
-            }
-            if (member == null)
-            {
+            //AppUser member = null;
+            //if (User.Identity.IsAuthenticated)
+            //{
+            //    member = await _userManager.FindByNameAsync(User.Identity.Name);
+            //}
+            //if (member == null)
+            //{
                 if (basketItemsStr != null)
                 {
                     basketItems = JsonConvert.DeserializeObject<List<BasketItemViewModel>>(basketItemsStr);
@@ -77,24 +74,25 @@ namespace AdminPanelCRUD.Controllers
                 }
             basketItemsStr = JsonConvert.SerializeObject(basketItems);
             HttpContext.Response.Cookies.Append("BasketItems", basketItemsStr);
-            }
-            else
-            {
-                BasketItem memberBasketItem = _pustokContext.BasketItems.FirstOrDefault(x=>x.AppUserId==member.Id && x.Id==bookId);
-                if (memberBasketItem != null) memberBasketItem.Count++;
-                else
-                {
-                    memberBasketItem = new BasketItem
-                    {
-                        Id = bookId,
-                        AppUserId = member.Id,
-                        Count = 1
-                    };
-                    _pustokContext.BasketItems.Add(memberBasketItem);
-                }
-            }
-            _pustokContext.SaveChanges();
-            return Ok(); //200
+            //}
+            //else
+            //{
+            //    BasketItem memberBasketItem = _pustokContext.BasketItems.Include(x=>x.Book).FirstOrDefault(x=>x.AppUserId==member.Id && x.Id==bookId);
+            //    if (memberBasketItem != null) memberBasketItem.Count++;
+            //    else
+            //    {
+            //        memberBasketItem = new BasketItem
+            //        {
+            //            Id = bookId,
+            //            AppUserId = member.Id,
+            //            Count = 1
+            //        };
+            //        _pustokContext.BasketItems.Add(memberBasketItem);
+            //    }
+            //_pustokContext.SaveChanges();
+            //}
+            //return PartialView("_BasketItemPartial", basketItems);
+            return Ok();
         }
 
         public IActionResult GetBasket()

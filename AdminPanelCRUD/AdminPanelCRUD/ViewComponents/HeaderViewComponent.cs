@@ -27,7 +27,7 @@ namespace AdminPanelCRUD.ViewComponents
                 {
                     checkoutItem = new CheckoutItemViewModel
                     {
-                        Book = _context.Books.Include(x=>x.BookImages).FirstOrDefault(x => x.Id == item.BookId),
+                        Book = _context.Books.Include(x => x.BookImages).FirstOrDefault(x => x.Id == item.BookId),
                         Count = item.Count,
                     };
                     checkoutItems.Add(checkoutItem);
@@ -35,6 +35,6 @@ namespace AdminPanelCRUD.ViewComponents
             }
 
             return View(await Task.FromResult(checkoutItems));
-		}
+        }
 	}
 }

@@ -4,20 +4,19 @@
     foreach (var item in Model)
     {
         <div class="cart-product basketItem">
-           <a href="product-details.html" class="image">
-                <img src="~/uploads/books/@item.Book.BookImages.FirstOrDefault(x=>x.IsPoster==true)?.Image" alt="">
+            <a href="product-details.html" class="image">
+                <img class="basketItemImage" src="~/uploads/books/@item.Book.BookImages.FirstOrDefault(x=>x.IsPoster==true)?.Image" alt="">
             </a>
             <div class="content">
                 <h3 class="title">
-                    <a href="product-details.html">
+                    <a class="basketItemTitle" href="product-details.html">
                         @item.Book.Name
                     </a>
                 </h3>
-                <p class="price"><span class="qty">@item.Count ×</span> £@Math.Round((item.Book.SalePrice * (1 - item.Book.Discount / 100)),2)</p>
+                <p class="price"><span class="qty basketItemCount">@item.Count ×</span>£@Math.Round((item.Book.SalePrice * (1 - item.Book.Discount / 100)),2)</p>
                 <button class="cross-btn"><i class="fas fa-times"></i></button>
             </div>
         </div>
-
     }
     <div class=" single-cart-block ">
         <div class="btn-block">
